@@ -13,6 +13,10 @@ __[Trading strategy and Backtest](https://www.youtube.com/watch?v=5W_Lpz1ZuTI&t=
 
 A basic momentum trading strategy for S&P 500 stocks taking the past twelve months and skipping the most recent month (a la Ken French).
 
+__[git-all-tickers](https://github.com/shilewenuw/get_all_tickers))__
+Thanks, shilewenuw!
+
 # References
 [Algovibes](https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw)
+.[NASDAQ](https://www.nasdaq.com/market-activity/stocks/screener)
 
