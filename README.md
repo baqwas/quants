@@ -17,6 +17,6 @@ __[git-all-tickers](https://github.com/shilewenuw/get_all_tickers))__
 Thanks, shilewenuw!
 
 # References
-[Algovibes](https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw) 
+[Algovibes](https://www.youtube.com/channel/UC87aeHqMrlR6ED0w2SVi5nw)  
 [NASDAQ](https://www.nasdaq.com/market-activity/stocks/screener)
 
