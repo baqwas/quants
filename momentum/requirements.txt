@@ -1,0 +1,7 @@
+streamlit
+pandas
+mariadb
+toml
+yfinance
+mplfinance
+python-dateutil
