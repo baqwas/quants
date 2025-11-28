@@ -51,22 +51,23 @@ def fetch_signals_from_db(conn):
     st.subheader("Recent MACD Signals (from `stock_signals` table)")
     try:
         cursor = conn.cursor(dictionary=True)
-        # Assuming the 'stock_signals' table structure based on your log_signal_to_db usage:
-        # ticker, signal_date, signal_type, signal_description, close, macd, signal_line, rsi
+
+        # Columns are mapped using 'AS' aliases to match the DDL.
         query = """
             SELECT 
-                ticker, 
+                ticker_symbol AS ticker, 
                 signal_date, 
                 signal_type, 
-                signal_description,
-                close,
-                macd,
-                signal_line,
-                rsi
+                description AS signal_description,
+                price_at_signal AS close,
+                macd_value AS macd,
+                signal_value AS signal_line,
+                rsi_value AS rsi
             FROM stock_signals
             ORDER BY signal_date DESC, ticker ASC
             LIMIT 100
         """
+
         cursor.execute(query)
         signals = cursor.fetchall()
         cursor.close()
@@ -78,7 +79,7 @@ def fetch_signals_from_db(conn):
             # Format display table
             st.dataframe(
                 df[['signal_date', 'ticker', 'signal_type', 'close', 'signal_description']],
-                use_container_width=True,
+                width='stretch',  # FIXED: Replaces deprecated use_container_width=True
                 column_config={
                     "signal_date": st.column_config.DatetimeColumn("Date", format="YYYY-MM-DD"),
                     "ticker": st.column_config.TextColumn("Ticker"),
@@ -130,21 +131,27 @@ def fetch_and_process_data(ticker, analysis_config):
     start_date = end_date - relativedelta(months=period_months)
 
     try:
-        # Fetch data using yfinance
-        data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+        # Fetch data using yfinance, explicitly setting auto_adjust=True to suppress FutureWarning
+        data = yf.download(ticker, start=start_date, end=end_date, progress=False, auto_adjust=True)
         if data.empty:
             st.warning(f"Could not retrieve data for {ticker}. Check ticker name.")
             return None
 
-        # Clean column names (mplfinance expects 'Open', 'High', etc.)
-        data.columns = [col.capitalize() for col in data.columns]
+        # Robust column handling for yfinance MultiIndex/Tuple issue.
+        if any(isinstance(col, tuple) for col in data.columns):
+            # Flatten MultiIndex columns and capitalize the first element (e.g., ('Close', 'NVDA') -> 'Close')
+            data.columns = [item[0].capitalize() if isinstance(item, tuple) else item.capitalize() for item in
+                            data.columns]
+        else:
+            # Standard capitalization for single ticker data (e.g., 'open' -> 'Open')
+            data.columns = [col.capitalize() for col in data.columns]
 
         # Calculate indicators
         processed_df = calculate_indicators(data, short_w, long_w, signal_w)
 
         return processed_df
     except Exception as e:
-        st.error(f"Error fetching or processing data for {ticker}: {e}")
+        st.error(f"Error fetching or processing data for {ticker}: '{e}'")
         return None
 
 
@@ -152,7 +159,7 @@ def generate_mplfinance_chart(processed_df, ticker):
     """Generates the mplfinance chart as a Streamlit image."""
 
     # 1. Define custom MACD and RSI plots
-    macd_colors = ['#1f77b4' if processed_df['MACD_Hist'][i] >= 0 else '#ff7f0e' for i in range(len(processed_df))]
+    macd_colors = ['#1f77b4' if processed_df['MACD_Hist'].iloc[i] >= 0 else '#ff7f0e' for i in range(len(processed_df))]
 
     # MACD Plot
     apds = [
