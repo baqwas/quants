@@ -1,0 +1,40 @@
+# ================================================================================
+# ENERGY SECTOR (e.g., $XLE)
+# Sub-Categories: Integrated Oil & Gas, Exploration & Production, Oil & Gas Equipment & Services, Midstream, Refining & Marketing
+# ================================================================================
+
+# 1. Energy: Oil, Gas, and Consumable Fuels; Energy Equipment and Services (e.g., $XLE)
+# Major ETF:
+XLE (Energy Select Sector SPDR Fund - Broad exposure to the S&P 500 Energy Sector)
+
+# Sub-Sector 1: Integrated Oil & Gas (Exploration, Production, Refining, and Marketing)
+XOM (Exxon Mobil - Global major integrated oil & gas company)
+CVX (Chevron - Global major integrated oil & gas company)
+SHEL (Shell plc - Global integrated oil & gas major)
+TTE (TotalEnergies SE - Global integrated oil & gas major)
+BP (BP plc - Global integrated oil & gas major)
+
+# Sub-Sector 2: Oil & Gas Exploration & Production (E&P)
+COP (ConocoPhillips - Largest pure-play U.S. independent E&P company)
+EOG (EOG Resources - Leading U.S. E&P focused on horizontal drilling)
+DVN (Devon Energy - U.S. E&P company with significant Permian Basin assets)
+FANG (Diamondback Energy - E&P focused heavily on the Permian Basin)
+EQT (EQT Corporation - Largest natural gas producer in the U.S.)
+OXY (Occidental Petroleum - E&P with a focus on carbon capture technologies)
+
+# Sub-Sector 3: Oil & Gas Equipment & Services (OFS)
+SLB (SLB Ltd. - Global provider of technology and services to the energy industry)
+HAL (Halliburton Company - Major provider of services and products for energy exploration)
+BKR (Baker Hughes Co - Global energy technology company, including oilfield services)
+NOV (NOV Inc. - Supplier of equipment and components used in oil and gas drilling)
+
+# Sub-Sector 4: Midstream (Storage, Processing, and Transportation/Pipelines)
+WMB (The Williams Companies Inc - Focus on natural gas infrastructure, processing, and transportation)
+KMI (Kinder Morgan Inc - One of the largest energy infrastructure companies in North America)
+EPD (Enterprise Products Partners L.P. - Leading midstream master limited partnership, primarily natural gas)
+TRGP (Targa Resources Corp - Provider of midstream services and natural gas liquids infrastructure)
+
+# Sub-Sector 5: Refining & Marketing
+MPC (Marathon Petroleum Corp - Largest petroleum refiner in the U.S.)
+VLO (Valero Energy Corp - Independent petroleum refiner and ethanol producer)
+PSX (Phillips 66 - Refining, midstream, chemicals, and marketing)

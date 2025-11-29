@@ -1,0 +1,44 @@
+# ================================================================================
+# REAL ESTATE SECTOR (e.g., $XLRE)
+# Sub-Categories: Real Estate Investment Trusts (REITs) and Real Estate Management & Development
+# ================================================================================
+
+# 1. Real Estate Sector ETFs (Sector Tracking)
+XLRE (Real Estate Select Sector SPDR Fund - Tracks S&P 500 Real Estate)
+VNQ (Vanguard Real Estate ETF - Broad Diversified REIT Exposure)
+IYR (iShares U.S. Real Estate ETF - U.S. Real Estate Stocks)
+
+# 2. REITs: Residential & Multi-Family
+EQR (Equity Residential - Urban and Suburban Apartments)
+MAA (Mid-America Apartment Communities - Sunbelt Apartments)
+AVB (AvalonBay Communities - Upscale Apartment Homes)
+ESS (Essex Property Trust - West Coast Apartments)
+
+# 3. REITs: Industrial & Logistics
+PLD (Prologis - Global Industrial Logistics Facilities)
+TRNO (Terreno Realty - Industrial Properties in Coastal Markets)
+STAG (Stag Industrial - Single-Tenant Industrial Properties)
+
+# 4. REITs: Infrastructure (Data Center, Tower, Telecom)
+AMT (American Tower Corp - Wireless Communication Infrastructure)
+SBAC (SBA Communications - Wireless Communication Infrastructure)
+EQIX (Equinix - Global Data Center REIT)
+DLR (Digital Realty - Global Data Center REIT)
+
+# 5. REITs: Retail & Commercial
+SPG (Simon Property Group - Shopping Malls and Premium Outlets)
+O (Realty Income - Monthly Dividend Retail Properties)
+MAC (Macerich - Regional Enclosed Shopping Centers)
+
+# 6. REITs: Healthcare & Specialized
+OHI (Omega Healthcare Investors - Skilled Nursing Facilities)
+VTR (Ventas - Seniors Housing, Healthcare, and Research Properties)
+WELL (Welltower - Healthcare Infrastructure)
+IRM (Iron Mountain - Data Management/Storage & Data Centers)
+
+# 7. Real Estate Management, Brokers & Developers
+CBRE (CBRE Group - Commercial Real Estate Services & Investment)
+DHI (D.R. Horton - Homebuilder)
+LGIH (LGI Homes - Homebuilder)
+H (Hilton Worldwide Holdings - Hotels & Resorts)
+RMAX (RE/MAX Holdings - Real Estate Brokerage Franchises)

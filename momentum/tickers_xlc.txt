@@ -1,0 +1,33 @@
+# ================================================================================
+# COMMUNICATION SERVICES SECTOR (e.g., $XLC)
+# Sub-Categories: Interactive Media & Services, Media & Entertainment, Telecom
+# ================================================================================
+
+# 1. Interactive Media & Digital Platforms (The Largest Components)
+GOOGL (Alphabet Inc. - Search, YouTube, Android, and global advertising platform)
+META (Meta Platforms Inc. - Facebook, Instagram, WhatsApp, and Reality Labs)
+RBLX (Roblox Corp. - Immersive entertainment/gaming platform)
+PINS (Pinterest, Inc. - Visual discovery and social media platform)
+SNAP (Snap Inc. - Snapchat social media and AR technology)
+
+# 2. Media & Entertainment (Streaming, Content, Studios)
+NFLX (Netflix, Inc. - Global streaming content producer and distributor)
+DIS (Walt Disney Co. - Media networks, Parks, Studio Entertainment, and Disney+ streaming)
+WBD (Warner Bros. Discovery - Global media, streaming (Max), and studio content)
+PARA (Paramount Global - Media networks (CBS) and streaming (Paramount+))
+LYV (Live Nation Entertainment - Live event promotion and ticketing (Ticketmaster))
+SIRI (Sirius XM Holdings - Satellite radio and streaming audio)
+FOXA (Fox Corporation - News, sports, and broadcast television)
+
+# 3. Telecom & Communication Services (Wireless, Cable, Internet Infrastructure)
+VZ (Verizon Communications - Wireless and wireline telecommunications services)
+T (AT&T Inc. - Wireless, wireline, and fiber broadband services)
+TMUS (T-Mobile US, Inc. - Wireless telecommunications services)
+CMCSA (Comcast Corp. - Cable, internet, and phone services (Xfinity); NBCUniversal)
+DISH (DISH Network - Satellite TV and wireless network services)
+
+# 4. Advertising, Publishing, & Other Services
+IPG (Interpublic Group - Global advertising and marketing services)
+OMC (Omnicom Group - Global advertising, marketing, and corporate communications)
+NYT (The New York Times Company - Multiplatform newspaper and digital subscription services)
+IAC (IAC Inc. - Portfolio of internet and media companies (e.g., Angi, Dotdash Meredith))

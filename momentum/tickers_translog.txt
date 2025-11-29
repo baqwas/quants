@@ -1,0 +1,36 @@
+# ================================================================================
+# TRANSPORTATION & LOGISTICS SECTOR (e.g., $IYT)
+# Sub-Categories: Air Transportation, Rail, Ground Logistics & Package Delivery, Maritime & Shipping, and Infrastructure
+# ================================================================================
+
+# 1. Air Transportation (Passenger & Cargo Airlines)
+DAL (Delta Air Lines - Major Passenger Carrier)
+UAL (United Airlines - Major Passenger Carrier)
+LUV (Southwest Airlines - Low-Cost Passenger Carrier)
+AAL (American Airlines - Major Passenger Carrier)
+ALGT (Allegiant Travel - Leisure/Vacation Focused Carrier)
+
+# 2. Rail Transportation (Class I Freight Railroads)
+UNP (Union Pacific - Western U.S. Freight Rail)
+CSX (CSX Corp - Eastern U.S. Freight Rail)
+NSC (Norfolk Southern - Eastern U.S. Freight Rail)
+CP (Canadian Pacific Kansas City - North American Rail)
+
+# 3. Ground Logistics & Package Delivery
+UPS (United Parcel Service - Global Package Delivery & Logistics)
+FDX (FedEx - Global Express Delivery & Freight)
+JBHT (J.B. Hunt Transport Services - Truckload & Intermodal)
+CHRW (C.H. Robinson - Third-Party Logistics (3PL))
+KNX (Knight-Swift Transportation - Largest Truckload Carrier)
+
+# 4. Maritime & Shipping
+SBLK (Star Bulk Carriers - Dry Bulk Shipping)
+GNK (Genco Shipping & Trading - Dry Bulk Shipping)
+MATX (Matson - Pacific Shipping & Logistics)
+EURN (Euronav - Crude Oil Tanker Shipping)
+
+# 5. Transportation Infrastructure & Leasing
+GE (General Electric - Aviation & Energy Equipment)
+TRN (Trinity Industries - Railcar Manufacturing & Leasing)
+GATX (GATX Corp - Railcar Leasing)
+KEX (Kirby Corp - Inland Waterway Transportation)

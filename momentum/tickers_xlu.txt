@@ -1,0 +1,27 @@
+# ================================================================================
+# UTILITIES SECTOR (e.g., $XLU)
+# Sub-Categories: Electric, Gas, Water, and Multi-Utilities
+# ================================================================================
+
+# 1. Multi-Utilities (Electric, Gas, sometimes Water)
+NEE (NextEra Energy - Largest U.S. utility; strong focus on renewable energy)
+DUK (Duke Energy - Large-cap integrated energy company)
+SO (Southern Company - Serving the Southeast; Electric and Gas)
+D (Dominion Energy - Major electric and natural gas provider)
+WTRG (Essential Utilities - Water, Wastewater, and Natural Gas)
+
+# 2. Electric Utilities
+EXC (Exelon Corp - Regulated electric and gas operations in several mid-Atlantic states)
+AEP (American Electric Power - Serving millions across 11 U.S. states)
+PCG (PG&E Corp - California's largest electric and natural gas utility)
+EIX (Edison International - Parent company of Southern California Edison)
+XEL (Xcel Energy - Major focus on transition to clean energy/renewables)
+
+# 3. Gas Utilities & Pipelines
+SRE (Sempra Energy - Focused on North American energy infrastructure: electric and natural gas)
+ETR (Entergy Corp - Electric and gas utility primarily in the Gulf South)
+PPL (PPL Corporation - Electric and natural gas utilities in the U.S. and UK)
+
+# 4. Water Utilities
+AWK (American Water Works - Largest publicly traded U.S. water and wastewater utility)
+CWT (California Water Service Group - Providing water utility services in California, Hawaii, New Mexico, and Washington)

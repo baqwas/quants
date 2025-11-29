@@ -1,0 +1,29 @@
+# ================================================================================
+# CONSUMER DISCRETIONARY SECTOR (e.g., $XLY)
+# Sub-Categories: Retail (non-staples), Media, Hotels, Automobiles, and Luxury Goods
+# ================================================================================
+
+# I. Retail (Broadline & Specialty Retail)
+AMZN (Amazon.com - Global E-commerce, Cloud Computing, and Digital Streaming)
+HD (Home Depot - Home Improvement and Construction Specialty Retailer)
+TJX (The TJX Companies - Off-Price Apparel and Home Fashions Retail (T.J. Maxx, Marshalls))
+
+# II. Media, Entertainment, & Restaurants
+DIS (Walt Disney Company - Theme Parks, Media Networks, and Direct-to-Consumer Streaming)
+MCD (McDonald's - Global Quick-Service Restaurant (QSR) Franchisor)
+SBUX (Starbucks Corporation - Global Coffeehouse and Specialty Beverage Chain)
+
+# III. Hotels, Resorts, & Cruise Lines
+BKNG (Booking Holdings - Online Travel Agency (OTA) for Lodging and Flights)
+ABNB (Airbnb - Global Marketplace for Short-Term Rentals and Experiences)
+MAR (Marriott International - Global Operator and Franchisor of Luxury and Full-Service Hotels)
+
+# IV. Automobiles & Components
+TSLA (Tesla - Electric Vehicle (EV) Manufacturing and Battery/Solar Technology)
+F (Ford Motor - Traditional and Electric Automotive Manufacturing)
+AZO (AutoZone - Distributor and Retailer of Automotive Replacement Parts and Accessories)
+
+# V. Luxury Goods & Apparel
+NKE (Nike - Global Designer and Marketer of Athletic Footwear and Apparel)
+LULU (lululemon athletica - Technical Athletic Apparel and Lifestyle Gear)
+TPR (Tapestry - Luxury Accessories Holding Company (Coach, Kate Spade, Stuart Weitzman))

@@ -1,0 +1,31 @@
+# ================================================================================
+# INDUSTRIALS SECTOR (e.g., $XLI)
+# Sub-Categories: Aerospace & Defense, Machinery, Professional Services, Transportation
+# ================================================================================
+
+# 1. Industrials: Aerospace & Defense
+LMT (Lockheed Martin - Defense, Missile, and Aerospace Systems)
+RTX (RTX Corporation - Aerospace, Defense, and Intelligence)
+BA (Boeing - Commercial Aircraft and Defense Systems)
+NOC (Northrop Grumman - Aeronautics, Missiles, and Space Systems)
+GD (General Dynamics - Combat Vehicles, Ship building, and IT Services)
+
+# 2. Industrials: Machinery (Heavy Equipment & Industrial Conglomerates)
+CAT (Caterpillar - Construction and Mining Equipment)
+DE (Deere & Co - Agricultural and Construction Equipment)
+EMR (Emerson Electric - Automation and Industrial Software)
+ITW (Illinois Tool Works - Diversified Industrial Products)
+MMM (3M Company - Safety, Industrial, and Consumer Products)
+
+# 3. Industrials: Professional Services (Consulting, Staffing, Data)
+MMC (Marsh & McLennan - Risk, Strategy, and People Consulting)
+RHI (Robert Half International - Specialized Staffing and Consulting)
+VRSK (Verisk Analytics - Data Analytics and Risk Assessment)
+AON (Aon PLC - Risk, Retirement, and Health Solutions)
+
+# 4. Industrials: Transportation (Freight, Logistics, Airlines, Rail)
+UNP (Union Pacific - Major US Rail Freight Transportation)
+UPS (United Parcel Service - Global Package Delivery and Logistics)
+FDX (FedEx Corp - Global Courier, Freight, and Supply Chain Services)
+NSC (Norfolk Southern - Major US Rail Freight Transportation)
+DAL (Delta Air Lines - Commercial Passenger Aviation)

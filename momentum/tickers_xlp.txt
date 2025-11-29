@@ -1,0 +1,28 @@
+# ================================================================================
+# CONSUMER STAPLES SECTOR (e.g., $XLP)
+# Sub-Categories: Food, Beverage, Tobacco, Household Goods, and Personal Products
+# ================================================================================
+
+# ETF for the Sector
+XLP (Consumer Staples Select Sector SPDR Fund - Sector ETF)
+
+# Food & Beverage Companies
+KO (Coca-Cola - Non-alcoholic beverages)
+PEP (PepsiCo - Beverages and snack foods)
+MNST (Monster Beverage - Energy drinks)
+MDLZ (Mondelez Intl - Snacks and confectionery)
+KHC (Kraft Heinz - Packaged food)
+GIS (General Mills - Branded food products)
+CAG (Conagra Brands - Packaged foods)
+ADM (Archer-Daniels-Midland - Agricultural processing)
+
+# Household & Personal Products Companies
+PG (Procter & Gamble - Household and personal care)
+CL (Colgate-Palmolive - Oral, personal, and home care)
+KMB (Kimberly-Clark - Personal and health care products)
+EL (Estee Lauder - Prestige skin care, makeup, fragrance)
+
+# Tobacco Companies
+MO (Altria Group - U.S. tobacco and related products)
+PM (Philip Morris Intl - International tobacco products)
+BTI (British American Tobacco - International tobacco and nicotine products)

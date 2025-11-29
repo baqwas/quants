@@ -1,0 +1,30 @@
+# ================================================================================
+# HEALTH CARE SECTOR (e.g., $XLV)
+# Sub-Categories: Biotechnology, Pharmaceuticals, Health Care Equipment, and Services
+# ================================================================================
+
+# I. Pharmaceuticals & Biotechnology (Drug Discovery, Therapy, Vaccines)
+LLY (Eli Lilly - Weight Loss, Diabetes, Alzheimer's)
+JNJ (Johnson & Johnson - Pharmaceuticals, Medical Devices, Consumer Health)
+MRK (Merck - Oncology, Vaccines, Animal Health)
+PFE (Pfizer - Vaccines, Biopharma)
+ABBV (AbbVie - Immunology, Oncology, Aesthetics)
+AMGN (Amgen - Biosimilars, Biotech, Inflammation)
+GILD (Gilead Sciences - Antivirals, HIV, Oncology)
+BIIB (Biogen - Neurology, Alzheimer’s)
+
+# II. Managed Health Care & Services (Insurance, Clinics, PBMs)
+UNH (UnitedHealth Group - Managed Care/Optum Health Services)
+CVS (CVS Health - Pharmacy Benefits Management (PBM), Retail, Aetna Insurance)
+CI (The Cigna Group - Health Insurance, Evernorth Health Services)
+HUM (Humana - Managed Care, Focus on Medicare)
+HCA (HCA Healthcare - Hospital Operations)
+DHR (Danaher - Life Sciences, Diagnostics)
+
+# III. Medical Devices & Equipment (Surgical, Diagnostics, Lab Instruments)
+ABT (Abbott Laboratories - Diagnostics, Medical Devices, Nutrition)
+MDT (Medtronic - Surgical Devices, Cardiac & Vascular, Diabetes)
+TMO (Thermo Fisher Scientific - Lab Instruments, Scientific Services)
+SYK (Stryker - Orthopedics, Surgical Equipment)
+ISRG (Intuitive Surgical - Da Vinci Robotic Surgery Systems)
+EW (Edwards Lifesciences - Heart Valve Technology)

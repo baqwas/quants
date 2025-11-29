@@ -1,0 +1,32 @@
+# ================================================================================
+# FINANCIALS SECTOR (e.g., $XLF)
+# Sub-Categories: Banks, Insurance Companies, Capital Markets, and Diversified Financial Services
+# ================================================================================
+
+# Banks
+JPM (JPMorgan Chase - Global financial services, leading investment and consumer bank)
+BAC (Bank of America - Retail, commercial banking, and investment banking services)
+WFC (Wells Fargo - Major national bank with a large commercial and consumer footprint)
+C (Citigroup - Global universal bank, corporate and investment banking)
+MS (Morgan Stanley - Premier global investment bank and wealth manager)
+
+# Insurance Companies
+BRK.B (Berkshire Hathaway - Diversified conglomerate with major insurance businesses (GEICO, General Re))
+CB (Chubb - Global provider of property and casualty insurance)
+AIG (American International Group - Global property-casualty, life insurance, and retirement solutions)
+PGR (Progressive - Leading and innovative auto and property insurance provider)
+MET (MetLife - Global provider of life insurance, annuities, and employee benefits)
+
+# Capital Markets
+BLK (BlackRock - World's largest asset manager and provider of Aladdin risk technology)
+GS (Goldman Sachs - Premier global investment banking, securities, and asset management firm)
+CME (CME Group - Operator of leading derivatives and futures exchanges)
+ICE (Intercontinental Exchange - Operator of exchanges (NYSE) and global data services)
+MSCI (MSCI Inc. - Provider of investment indexes, portfolio risk, and governance tools)
+
+# Diversified Financial Services
+V (Visa - Global digital payments network and payments technology infrastructure)
+MA (Mastercard - Global payments technology company)
+AXP (American Express - Integrated payments company, credit cards and travel services)
+PYPL (PayPal - Global digital payment platform and financial technology leader)
+COF (Capital One Financial - Banking, credit cards, auto loans, and financial products)

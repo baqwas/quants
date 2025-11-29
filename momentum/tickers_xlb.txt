@@ -1,0 +1,31 @@
+# ================================================================================
+# MATERIALS SECTOR (e.g., $XLB)
+# Sub-Categories: Chemicals & Industrial Gases, Construction Materials & Products, Metals, Mining & Raw Materials
+# ================================================================================
+
+# 1. Chemicals & Industrial Gases
+LIN (Linde plc - Industrial Gases, Specialty Chemicals)
+APD (Air Products and Chemicals - Industrial Gases and Equipment)
+LYB (LyondellBasell - Chemicals and Plastics)
+DD (DuPont de Nemours - Specialty Chemicals and Advanced Materials)
+HUN (Huntsman - Specialty Chemicals)
+ECL (Ecolab - Cleaning, Sanitation, and Water Treatment Chemicals)
+PPG (PPG Industries - Paints, Coatings, and Specialty Materials)
+
+# 2. Construction Materials & Products
+VMC (Vulcan Materials - Construction Aggregates and Asphalt)
+MLM (Martin Marietta Materials - Construction Aggregates, Cement)
+SHW (Sherwin-Williams - Paints, Coatings, and Construction Adhesives)
+OC (Owens Corning - Insulation, Roofing, and Composites)
+LPX (Louisiana-Pacific - Engineered Wood and Building Materials)
+MAS (Masco - Plumbing and Decorative Architectural Products)
+
+# 3. Metals, Mining & Raw Materials
+FCX (Freeport-McMoRan - Copper, Gold, and Molybdenum Mining)
+NEM (Newmont Corp - Gold and Silver Mining)
+RIO (Rio Tinto - Iron Ore, Aluminum, Copper, and Minerals Mining)
+VALE (Vale S.A. - Iron Ore and Nickel Mining)
+NUE (Nucor - Steel and Steel Products)
+CLF (Cleveland-Cliffs - Iron Ore Mining and Steel Production)
+MOS (Mosaic - Phosphate and Potash Mining for Fertilizer)
+ALB (Albemarle - Lithium, Bromine, and Catalysts)
