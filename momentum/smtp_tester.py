@@ -7,12 +7,12 @@ from datetime import datetime
 # ----------------------------------------------------------------------
 # Configuration pulled directly from config.toml
 # ----------------------------------------------------------------------
-SMTP_SERVER = "bezaman.parkcircus.org"
+# SMTP_SERVER =
 SMTP_PORT = 587
-SMTP_USERNAME = "iot_admi"
-SMTP_PASSWORD = "Apna2Chabee!"
-SENDER_EMAIL = "chowkidar@parkcircus.org"
-RECIPIENT_EMAIL = "reza@parkcircus.org"
+# SMTP_USERNAME =
+# SMTP_PASSWORD =
+# SENDER_EMAIL =
+# RECIPIENT_EMAIL =
 
 # ----------------------------------------------------------------------
 # Email Content

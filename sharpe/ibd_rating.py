@@ -147,18 +147,33 @@ def get_stock_data(ticker_symbol, max_retries=5, base_delay=5):
 
 def calculate_relative_strength_score(historical_data):
     """
-    Calculates an approximate Relative Strength (RS) score.
+    Calculates an approximate Relative Strength (RS) score, safely handling NaN values.
     """
     if historical_data is None or historical_data.empty:
         return 0
 
+    # Perform ROC calculations, filling NaN with 0 if data is insufficient/missing
+    # We use .fillna(0) on the result of iloc[-1] to ensure we get a float, not NaN
+
+    # Note: .iloc[-1] might raise an IndexError if the series is empty or too short.
+    # The existing checks handle too-short data by setting ROC to 0 initially.
+
+    # Calculate Rate of Change (ROC), substituting 0 if the last value is NaN
     roc_3_months = historical_data['Close'].pct_change(periods=63).iloc[-1] if len(historical_data) >= 63 else 0
     roc_6_months = historical_data['Close'].pct_change(periods=126).iloc[-1] if len(historical_data) >= 126 else 0
     roc_9_months = historical_data['Close'].pct_change(periods=189).iloc[-1] if len(historical_data) >= 189 else 0
     roc_12_months = historical_data['Close'].pct_change(periods=252).iloc[-1] if len(historical_data) >= 252 else 0
 
+    # New Step: Explicitly check for and replace NaN values with 0
+    # This catches cases where yfinance returns a DataFrame, but the last few days' prices are missing.
+    roc_3_months = 0.0 if pd.isna(roc_3_months) else roc_3_months
+    roc_6_months = 0.0 if pd.isna(roc_6_months) else roc_6_months
+    roc_9_months = 0.0 if pd.isna(roc_9_months) else roc_9_months
+    roc_12_months = 0.0 if pd.isna(roc_12_months) else roc_12_months
+
     rs_score = (0.4 * roc_3_months) + (0.2 * roc_6_months) + (0.2 * roc_9_months) + (0.2 * roc_12_months)
 
+    # The conversion to int is now safe because rs_score is guaranteed not to be NaN
     return max(0, min(99, int(rs_score * 10000)))
 
 
