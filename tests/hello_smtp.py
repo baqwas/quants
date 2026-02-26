@@ -4,11 +4,11 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.image import MIMEImage # Assuming this is used for attachments
 
 
-SENDER_EMAIL = "iot_admi@parkcircus.org"
-RECIPIENT_EMAIL = "reza@parkcircus.org"
-SMTP_SERVER = "bezaman.parkcircus.org"
+# SENDER_EMAIL =
+# RECIPIENT_EMAIL =
+# SMTP_SERVER =
 SMTP_PORT = 587 # SMTP_STARTTLS typically uses port 587
-SMTP_PASSWORD = "ApnaChabee!"
+# SMTP_PASSWORD =
 
 message = MIMEMultipart('alternative')
 message['Subject'] = "Hello SMTP Test"
