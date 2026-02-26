@@ -4,15 +4,6 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 
-# ----------------------------------------------------------------------
-# Configuration pulled directly from config.toml
-# ----------------------------------------------------------------------
-SMTP_SERVER = "bezaman.parkcircus.org"
-SMTP_PORT = 587
-SMTP_USERNAME = "iot_admi"
-SMTP_PASSWORD = "Apna2Chabee!"
-SENDER_EMAIL = "chowkidar@parkcircus.org"
-RECIPIENT_EMAIL = "reza@parkcircus.org"
 
 # ----------------------------------------------------------------------
 # Email Content
