@@ -131,3 +131,6 @@ dmypy.json
 # AlphaVantage use
 config.toml
 secrets.toml
+.toml/
+.ini/
+
